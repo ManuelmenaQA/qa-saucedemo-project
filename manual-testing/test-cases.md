@@ -12,7 +12,8 @@
 
 **Resultado esperado:**
 El usuario accede correctamente a la página de productos
-
+**Resultado obtenido:**
+Passed
 
 ## TC-02: Login con credenciales inválidas
 
@@ -26,7 +27,8 @@ El usuario accede correctamente a la página de productos
 
 **Resultado esperado:**
 Se muestra un mensaje de error
-
+**Resultado obtenido:**
+Passed
 
 ## TC-03: Visualización de productos
 
@@ -38,7 +40,8 @@ Se muestra un mensaje de error
 
 **Resultado esperado:**
 Se muestra la lista de productos disponibles
-
+**Resultado obtenido:**
+Passed
 
 ## TC-04: Añadir producto al carrito
 
@@ -50,3 +53,5 @@ Se muestra la lista de productos disponibles
 
 **Resultado esperado:**
 El producto se añade al carrito correctamente
+**Resultado obtenido:**
+Passed
