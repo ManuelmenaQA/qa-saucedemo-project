@@ -16,7 +16,7 @@
 7. Pulsar "Finish"
 
 **Resultado esperado:**
-El pedido se completa correctamente y se muestra mensaje de confirmación
+El pedido se completa correctamente y se muestra mensaje de confirmación Resultado obtenido: Passed
 
 
 ## TC-09: Checkout con campos vacíos
@@ -32,7 +32,7 @@ El pedido se completa correctamente y se muestra mensaje de confirmación
 4. Pulsar "Continue"
 
 **Resultado esperado:**
-Se muestra un mensaje de error indicando que los campos son obligatorios
+Se muestra un mensaje de error indicando que los campos son obligatorios Resultado obtenido: Passed
 
 
 ## TC-10: Checkout con datos inválidos
@@ -48,4 +48,10 @@ Se muestra un mensaje de error indicando que los campos son obligatorios
 4. Pulsar "Continue"
 
 **Resultado esperado:**
-El sistema valida los datos o permite continuar según comportamiento esperado
+El sistema debería validar los datos introducidos y no permitir continuar con datos inválidos
+
+**Resultado obtenido:**
+El sistema permite continuar y completar la compra con datos inválidos
+
+**Estado:**
+❌ FAIL
