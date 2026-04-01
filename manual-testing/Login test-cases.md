@@ -1,4 +1,4 @@
-# Test Cases - SauceDemo
+# Test Cases Login - SauceDemo
 
 ## TC-01: Login con credenciales válidas
 
