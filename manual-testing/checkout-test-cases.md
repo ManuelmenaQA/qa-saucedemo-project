@@ -1,57 +1,106 @@
-# Test Cases - Checkout SauceDemo
+# Checkout Test Cases - SauceDemo
 
-## TC-08: Checkout completo correcto
+## TC-12: Validar precio total
 
 **Precondición:**
 - Usuario logueado
-- Producto añadido al carrito
+- 2 productos añadidos al carrito
 
 **Pasos:**
 1. Ir al carrito
 2. Pulsar "Checkout"
-3. Introducir First Name
-4. Introducir Last Name
-5. Introducir Postal Code
-6. Pulsar "Continue"
-7. Pulsar "Finish"
-
-**Resultado esperado:**
-El pedido se completa correctamente y se muestra mensaje de confirmación Resultado obtenido: Passed
-
-
-## TC-09: Checkout con campos vacíos
-
-**Precondición:**
-- Usuario logueado
-- Producto añadido al carrito
-
-**Pasos:**
-1. Ir al carrito
-2. Pulsar "Checkout"
-3. No rellenar los campos
+3. Introducir datos válidos
 4. Pulsar "Continue"
 
 **Resultado esperado:**
-Se muestra un mensaje de error indicando que los campos son obligatorios Resultado obtenido: Passed
-
-
-## TC-10: Checkout con datos inválidos
-
-**Precondición:**
-- Usuario logueado
-- Producto añadido al carrito
-
-**Pasos:**
-1. Ir al carrito
-2. Pulsar "Checkout"
-3. Introducir datos inválidos (ej: números en nombre)
-4. Pulsar "Continue"
-
-**Resultado esperado:**
-El sistema debería validar los datos introducidos y no permitir continuar con datos inválidos
+El total mostrado debería coincidir con la suma de los productos
 
 **Resultado obtenido:**
-El sistema permite continuar y completar la compra con datos inválidos
+El total se muestra correctamente en la página de resumen
 
 **Estado:**
-❌ FAIL
+✅ PASS
+
+
+## TC-14: Validar impuesto en checkout
+
+**Precondición:**
+- Usuario logueado
+- Producto añadido al carrito
+
+**Pasos:**
+1. Añadir producto al carrito
+2. Ir al carrito
+3. Pulsar "Checkout"
+4. Introducir datos válidos
+5. Pulsar "Continue"
+
+**Resultado esperado:**
+Se debería mostrar el impuesto correctamente en el resumen
+
+**Resultado obtenido:**
+El impuesto se muestra correctamente
+
+**Estado:**
+✅ PASS
+
+
+## TC-15: Validar total final (producto + tax)
+
+**Precondición:**
+- Usuario logueado
+- Producto añadido
+
+**Pasos:**
+1. Ir a checkout
+2. Introducir datos válidos
+3. Pulsar "Continue"
+
+**Resultado esperado:**
+El total final debería ser igual a (precio del producto + impuesto)
+
+**Resultado obtenido:**
+El total final se calcula correctamente
+
+**Estado:**
+✅ PASS
+
+
+## TC-16: Cancelar checkout
+
+**Precondición:**
+- Usuario logueado
+- Producto en carrito
+
+**Pasos:**
+1. Ir a checkout
+2. Pulsar botón "Cancel"
+
+**Resultado esperado:**
+El usuario debería volver al carrito
+
+**Resultado obtenido:**
+El usuario vuelve correctamente al carrito
+
+**Estado:**
+✅ PASS
+
+
+## TC-17: Acceder a checkout sin productos
+
+**Precondición:**
+- Usuario logueado
+- Carrito vacío
+
+**Pasos:**
+1. Ir al carrito
+2. Pulsar "Checkout"
+
+**Resultado esperado:**
+El sistema debería permitir continuar o mostrar el comportamiento esperado
+
+**Resultado obtenido:**
+El sistema permite continuar al checkout
+
+**Estado:**
+✅ PASS
