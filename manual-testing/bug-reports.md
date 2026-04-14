@@ -47,9 +47,9 @@ El sistema permite continuar y completar la compra con datos inválidos
 ### Notas:
 No existe validación de formato en los campos del formulario  
 
-## BUG-17: El sistema permite acceder al checkout con el carrito vacío
+## BUG-02: El sistema permite acceder al checkout con el carrito vacío
 
-**ID:** BUG-17  
+**ID:** BUG-02  
 **Título:** El sistema permite continuar al checkout con el carrito vacío  
 
 **Severidad:** Alta  
