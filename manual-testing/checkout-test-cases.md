@@ -86,21 +86,27 @@ El usuario vuelve correctamente al carrito
 ✅ PASS
 
 
-## TC-17: Acceder a checkout sin productos
+## TC-17: Acceder al checkout con carrito vacío
 
 **Precondición:**
-- Usuario logueado
-- Carrito vacío
+
+Usuario logueado en el sistema
+Carrito de compras vacío
 
 **Pasos:**
-1. Ir al carrito
-2. Pulsar "Checkout"
+
+Acceder al carrito de compras
+Hacer clic en el botón "Checkout"
 
 **Resultado esperado:**
-El sistema debería permitir continuar o mostrar el comportamiento esperado
+El sistema no deberia permitir continuar al proceso de checkout.
+Debe mostrar un mensaje indicando que el carrito está vacío o redirigir al usuario a la página del carrito o catálogo.
 
 **Resultado obtenido:**
-El sistema permite continuar al checkout
+El sistema permite continuar al checkout aun cuando el carrito está vacío.
 
 **Estado:**
-✅ PASS
+❌ FAIL
+
+**Observaciones:**
+Se detecta un comportamiento incorrecto, ya que no se valida que el carrito contenga productos antes de permitir el acceso al checkout.
