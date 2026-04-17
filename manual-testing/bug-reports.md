@@ -16,15 +16,12 @@
 
 ---
 
-### Pasos para reproducir:
-1. Entrar en la web: https://www.saucedemo.com/  
-2. Introducir usuario y contraseña válidos  
-3. Añadir un producto al carrito  
-4. Ir al carrito  
-5. Pulsar "Checkout"  
-6. Introducir datos inválidos (ej: números en nombre)  
-7. Pulsar "Continue"  
-8. Completar la compra  
+### Pasos para reproducir:  
+1. Ir al carrito  
+2. Pulsar "Checkout"  
+3. Introducir datos inválidos (ej: números en nombre)  
+4. Pulsar "Continue"  
+5. Completar la compra
 
 ---
 

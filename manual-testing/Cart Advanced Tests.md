@@ -8,7 +8,7 @@
 2. Ir al carrito
 
 **Resultado esperado:**
-Se muestran ambos productos en el carrito
+Se deberian mostrar ambos productos en el carrito
 
 **Resultado obtenido:**
 Los dos productos se muestran correctamente en el carrito
@@ -30,7 +30,7 @@ Los dos productos se muestran correctamente en el carrito
 4. Pulsar "Continue"
 
 **Resultado esperado:**
-El total mostrado en la página de resumen coincide con la suma de los productos
+El total debe mostrarse en la página de resumen coincidiendo con la suma de los productos
 
 **Resultado obtenido:**
 El total se muestra correctamente en la página de resumen tras pulsar "Continue"
@@ -50,7 +50,7 @@ El total se muestra correctamente en la página de resumen tras pulsar "Continue
 2. Pulsar "Remove" en el producto
 
 **Resultado esperado:**
-El producto desaparece del carrito
+El producto deberia desaparecer del carrito
 
 **Resultado obtenido:**
 El producto se elimina correctamente del carrito

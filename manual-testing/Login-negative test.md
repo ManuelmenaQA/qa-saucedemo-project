@@ -10,7 +10,7 @@
 3. Pulsar botón **Login**  
 
 **Resultado esperado:**  
-- Se muestra un mensaje indicando que el usuario está bloqueado y no puede iniciar sesión  
+- Se deberia mostrar un mensaje indicando que el usuario está bloqueado y no puede iniciar sesión  
 
 **Resultado obtenido:**  
 - Se muestra correctamente el mensaje de usuario bloqueado  
@@ -27,7 +27,7 @@
 1. Pulsar el botón **Login** sin ingresar usuario ni contraseña  
 
 **Resultado esperado:**  
-- Se muestra un mensaje indicando que los campos son obligatorios  
+- Se deberia mostrar un mensaje indicando que los campos son obligatorios  
 
 **Resultado obtenido:**  
 - Se muestra correctamente el mensaje de error por campos vacíos  
@@ -46,7 +46,7 @@
 3. Pulsar botón **Login**  
 
 **Resultado esperado:**  
-- Se muestra un mensaje indicando que la contraseña es incorrecta  
+- Se deberia mostrar un mensaje indicando que la contraseña es incorrecta 
 
 **Resultado obtenido:**  
 - Se muestra correctamente el mensaje de contraseña incorrecta  
